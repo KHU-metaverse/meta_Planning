@@ -2,6 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+
+# Unity 기본 무시 항목
 .utmp/
 /[Ll]ibrary/
 /[Tt]emp/
@@ -73,3 +75,40 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+# -------- 추가된 항목 (woodworkplace 추천 기반) --------
+
+# JetBrains Rider / IntelliJ 설정 파일
+.idea/
+
+# Unity Asset Store Tools 플러그인
+[Aa]ssets/AssetStoreTools*
+
+# iOS Xcode 프로젝트 관련
+*.xcworkspace
+*.xcuserdata
+*.xcodeproj
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# Unity Collaborate 관련
+.collabignore
+.collab/
+
+# Lighting 설정 데이터
+LightingData.asset
+LightingData.asset.meta
+
+# Roslyn 분석 관련 자동 생성 파일
+[Aa]ssets/GeneratedLocalPackages/
+
+# Unity Cloud Diagnostics
+[Aa]ssets/CrashReports/
+[Aa]ssets/CrashReports.meta
+
+# Unity Package Manager 캐시
+[Aa]ssets/PackageCache/
+[Aa]ssets/PackageCache.meta
